@@ -1,5 +1,12 @@
 package jp.itacademy.samples.oop.ticket;
 
+/**
+ * 券売機を表すクラスです。お金を投入してチケットを購入することができます。
+ * 購入したチケットは<code>Ticket</code>クラスのオブジェクトとして
+ * 取得できます。
+ * @author itacademy
+ *
+ */
 public class TicketMachine {
 
 	private static int nextSerial = 1;
@@ -17,6 +24,11 @@ public class TicketMachine {
 		this.price = price;
 	}
 
+/**
+ * お金を投入します。投入したお金は券売機の中に蓄積されます。
+ * 
+ * @param money 投入する金額
+ */
 	public void putMoney(int money) {
 		this.amount += money;
 	}
