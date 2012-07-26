@@ -7,9 +7,9 @@ public class Museum {
 	
 	public static void main(String[] args) {
 		
-		TicketMachine m1 = new TicketMachine("‚Ú‚¯”•¨ŠÙ@íİ“W", 500);
-		TicketMachine m2 = new TicketMachine("‚Ú‚¯”•¨ŠÙ@íİ“W", 500);
-		TicketMachine m3 = new TicketMachine("‚Ú‚¯”•¨ŠÙ@“Á•Ê“W", 800);
+		TicketMachine m1 = new TicketMachine("‚Ù‚°”•¨ŠÙ@íİ“W", 500);
+		TicketMachine m2 = new TicketMachine("‚Ù‚°”•¨ŠÙ@íİ“W", 500);
+		TicketMachine m3 = new TicketMachine("‚Ù‚°”•¨ŠÙ@“Á•Ê“W", 800);
 		
 		m1.putMoney(1000);
 		Ticket ticket1 = m1.getTicket();
