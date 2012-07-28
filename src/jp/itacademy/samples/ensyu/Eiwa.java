@@ -13,7 +13,7 @@ public class Eiwa {
 		
 //		Map<K, V>
 		
-		try(Scanner scanner = new Scanner(new File("C:/Users/itacademy/input.txt"))) {		
+		try(Scanner scanner = new Scanner(new File("C:/Users/itacademy/dictionary.txt"))) {		
 			while (scanner.hasNextLine()) {
 				System.out.println(scanner.nextLine());
 			}
